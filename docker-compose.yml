@@ -1,0 +1,6 @@
+version: "2"
+services:
+  web:
+    image: brbellissimo/hello-web
+    ports:
+     - "8000:80"
